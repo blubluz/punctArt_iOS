@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66BD65518B9FDF20E50EA3C1 /* Pods_punctArt___Loading_Culture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */; };
+		913B0BE81E98FCF5006B8546 /* ShowNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B0BE71E98FCF5006B8546 /* ShowNavigationController.m */; };
+		913B0BEB1E98FD08006B8546 /* ProfileNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B0BEA1E98FD08006B8546 /* ProfileNavigationController.m */; };
+		913B0BEE1E98FD86006B8546 /* ShowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B0BED1E98FD86006B8546 /* ShowsViewController.m */; };
+		913B0BF31E98FF0D006B8546 /* UIViewController+ZooUrban.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B0BF21E98FF0D006B8546 /* UIViewController+ZooUrban.m */; };
+		913B0BF81E990A4C006B8546 /* ShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B0BF61E990A4C006B8546 /* ShowTableViewCell.m */; };
+		913B0BF91E990A4C006B8546 /* ShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913B0BF71E990A4C006B8546 /* ShowTableViewCell.xib */; };
+		916B04AB1E98E44200813628 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B04AA1E98E44200813628 /* main.m */; };
+		916B04AE1E98E44200813628 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B04AD1E98E44200813628 /* AppDelegate.m */; };
+		916B04B41E98E44200813628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916B04B21E98E44200813628 /* Main.storyboard */; };
+		916B04B71E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 916B04B51E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld */; };
+		916B04B91E98E44200813628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916B04B81E98E44200813628 /* Assets.xcassets */; };
+		916B04BC1E98E44200813628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916B04BA1E98E44200813628 /* LaunchScreen.storyboard */; };
+		916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B04C51E98E6E200813628 /* CustomTabBarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89187CECE7A7E80A4626313A /* Pods-punctArt : Loading Culture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-punctArt : Loading Culture.release.xcconfig"; path = "Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture.release.xcconfig"; sourceTree = "<group>"; };
+		913B0BE61E98FCF5006B8546 /* ShowNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowNavigationController.h; sourceTree = "<group>"; };
+		913B0BE71E98FCF5006B8546 /* ShowNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowNavigationController.m; sourceTree = "<group>"; };
+		913B0BE91E98FD08006B8546 /* ProfileNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileNavigationController.h; sourceTree = "<group>"; };
+		913B0BEA1E98FD08006B8546 /* ProfileNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileNavigationController.m; sourceTree = "<group>"; };
+		913B0BEC1E98FD86006B8546 /* ShowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsViewController.h; sourceTree = "<group>"; };
+		913B0BED1E98FD86006B8546 /* ShowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsViewController.m; sourceTree = "<group>"; };
+		913B0BF11E98FF0D006B8546 /* UIViewController+ZooUrban.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZooUrban.h"; sourceTree = "<group>"; };
+		913B0BF21E98FF0D006B8546 /* UIViewController+ZooUrban.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZooUrban.m"; sourceTree = "<group>"; };
+		913B0BF51E990A4C006B8546 /* ShowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowTableViewCell.h; path = Assets.xcassets/ShowTableViewCell.h; sourceTree = "<group>"; };
+		913B0BF61E990A4C006B8546 /* ShowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowTableViewCell.m; path = Assets.xcassets/ShowTableViewCell.m; sourceTree = "<group>"; };
+		913B0BF71E990A4C006B8546 /* ShowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShowTableViewCell.xib; path = Assets.xcassets/ShowTableViewCell.xib; sourceTree = "<group>"; };
+		916B04A61E98E44200813628 /* punctArt : Loading Culture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "punctArt : Loading Culture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916B04AA1E98E44200813628 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		916B04AC1E98E44200813628 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		916B04AD1E98E44200813628 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		916B04B31E98E44200813628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		916B04B61E98E44200813628 /* punctArt___Loading_Culture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = punctArt___Loading_Culture.xcdatamodel; sourceTree = "<group>"; };
+		916B04B81E98E44200813628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		916B04BB1E98E44200813628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		916B04BD1E98E44200813628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916B04C41E98E6E200813628 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
+		916B04C51E98E6E200813628 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_punctArt___Loading_Culture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F389D8C33C0011462321701E /* Pods-punctArt : Loading Culture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-punctArt : Loading Culture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		916B04A31E98E43F00813628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD65518B9FDF20E50EA3C1 /* Pods_punctArt___Loading_Culture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367218754BEB0630E8B12651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F389D8C33C0011462321701E /* Pods-punctArt : Loading Culture.debug.xcconfig */,
+				89187CECE7A7E80A4626313A /* Pods-punctArt : Loading Culture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		913B0BE21E98FCC1006B8546 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				916B04C41E98E6E200813628 /* CustomTabBarViewController.h */,
+				916B04C51E98E6E200813628 /* CustomTabBarViewController.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		913B0BE31E98FCCA006B8546 /* Shows */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BE61E98FCF5006B8546 /* ShowNavigationController.h */,
+				913B0BE71E98FCF5006B8546 /* ShowNavigationController.m */,
+				913B0BEC1E98FD86006B8546 /* ShowsViewController.h */,
+				913B0BED1E98FD86006B8546 /* ShowsViewController.m */,
+			);
+			name = Shows;
+			sourceTree = "<group>";
+		};
+		913B0BE41E98FCD0006B8546 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BE91E98FD08006B8546 /* ProfileNavigationController.h */,
+				913B0BEA1E98FD08006B8546 /* ProfileNavigationController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		913B0BEF1E98FEF7006B8546 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BF01E98FF01006B8546 /* Categories */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		913B0BF01E98FF01006B8546 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BF11E98FF0D006B8546 /* UIViewController+ZooUrban.h */,
+				913B0BF21E98FF0D006B8546 /* UIViewController+ZooUrban.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		913B0BF41E990A36006B8546 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BF51E990A4C006B8546 /* ShowTableViewCell.h */,
+				913B0BF61E990A4C006B8546 /* ShowTableViewCell.m */,
+				913B0BF71E990A4C006B8546 /* ShowTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		916B049D1E98E43F00813628 = {
+			isa = PBXGroup;
+			children = (
+				916B04A81E98E44200813628 /* punctArt : Loading Culture */,
+				916B04A71E98E44200813628 /* Products */,
+				367218754BEB0630E8B12651 /* Pods */,
+				FF25AC2A4715AED931A2799B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		916B04A71E98E44200813628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				916B04A61E98E44200813628 /* punctArt : Loading Culture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		916B04A81E98E44200813628 /* punctArt : Loading Culture */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BEF1E98FEF7006B8546 /* Resources */,
+				916B04CD1E98E71900813628 /* AppDelegate&plist */,
+				916B04CC1E98E71200813628 /* Assets */,
+				916B04CB1E98E70700813628 /* Storyboards */,
+				916B04CA1E98E6FA00813628 /* Networking */,
+				916B04C91E98E6F400813628 /* Model */,
+				916B04C81E98E6F000813628 /* Views */,
+				916B04C71E98E6EA00813628 /* View Controllers */,
+				916B04A91E98E44200813628 /* Supporting Files */,
+				916B04B51E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld */,
+			);
+			path = "punctArt : Loading Culture";
+			sourceTree = "<group>";
+		};
+		916B04A91E98E44200813628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				916B04AA1E98E44200813628 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		916B04C71E98E6EA00813628 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BE41E98FCD0006B8546 /* Profile */,
+				913B0BE31E98FCCA006B8546 /* Shows */,
+				913B0BE21E98FCC1006B8546 /* TabBar */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		916B04C81E98E6F000813628 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				913B0BF41E990A36006B8546 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		916B04C91E98E6F400813628 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		916B04CA1E98E6FA00813628 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		916B04CB1E98E70700813628 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				916B04BA1E98E44200813628 /* LaunchScreen.storyboard */,
+				916B04B21E98E44200813628 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		916B04CC1E98E71200813628 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				916B04B81E98E44200813628 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		916B04CD1E98E71900813628 /* AppDelegate&plist */ = {
+			isa = PBXGroup;
+			children = (
+				916B04AC1E98E44200813628 /* AppDelegate.h */,
+				916B04AD1E98E44200813628 /* AppDelegate.m */,
+				916B04BD1E98E44200813628 /* Info.plist */,
+			);
+			name = "AppDelegate&plist";
+			sourceTree = "<group>";
+		};
+		FF25AC2A4715AED931A2799B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		916B04A51E98E43F00813628 /* punctArt : Loading Culture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916B04C01E98E44200813628 /* Build configuration list for PBXNativeTarget "punctArt : Loading Culture" */;
+			buildPhases = (
+				6A64316F9FB53B72995E6182 /* [CP] Check Pods Manifest.lock */,
+				916B04A21E98E43F00813628 /* Sources */,
+				916B04A31E98E43F00813628 /* Frameworks */,
+				916B04A41E98E43F00813628 /* Resources */,
+				FEA78208FE53147EEA2DEA55 /* [CP] Embed Pods Frameworks */,
+				A9E988C08728E37DD6EBB43D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "punctArt : Loading Culture";
+			productName = "punctArt : Loading Culture";
+			productReference = 916B04A61E98E44200813628 /* punctArt : Loading Culture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		916B049E1E98E43F00813628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mihai Honceriu";
+				TargetAttributes = {
+					916B04A51E98E43F00813628 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 339G5DV22M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 916B04A11E98E43F00813628 /* Build configuration list for PBXProject "punctArt : Loading Culture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 916B049D1E98E43F00813628;
+			productRefGroup = 916B04A71E98E44200813628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916B04A51E98E43F00813628 /* punctArt : Loading Culture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		916B04A41E98E43F00813628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916B04BC1E98E44200813628 /* LaunchScreen.storyboard in Resources */,
+				916B04B91E98E44200813628 /* Assets.xcassets in Resources */,
+				913B0BF91E990A4C006B8546 /* ShowTableViewCell.xib in Resources */,
+				916B04B41E98E44200813628 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A64316F9FB53B72995E6182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E988C08728E37DD6EBB43D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA78208FE53147EEA2DEA55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		916B04A21E98E43F00813628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913B0BEE1E98FD86006B8546 /* ShowsViewController.m in Sources */,
+				916B04AE1E98E44200813628 /* AppDelegate.m in Sources */,
+				916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */,
+				916B04B71E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld in Sources */,
+				913B0BF81E990A4C006B8546 /* ShowTableViewCell.m in Sources */,
+				916B04AB1E98E44200813628 /* main.m in Sources */,
+				913B0BE81E98FCF5006B8546 /* ShowNavigationController.m in Sources */,
+				913B0BF31E98FF0D006B8546 /* UIViewController+ZooUrban.m in Sources */,
+				913B0BEB1E98FD08006B8546 /* ProfileNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		916B04B21E98E44200813628 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916B04B31E98E44200813628 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		916B04BA1E98E44200813628 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916B04BB1E98E44200813628 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		916B04BE1E98E44200813628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		916B04BF1E98E44200813628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		916B04C11E98E44200813628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F389D8C33C0011462321701E /* Pods-punctArt : Loading Culture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 339G5DV22M;
+				INFOPLIST_FILE = "punctArt : Loading Culture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MihaiH.punctArt---Loading-Culture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		916B04C21E98E44200813628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89187CECE7A7E80A4626313A /* Pods-punctArt : Loading Culture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 339G5DV22M;
+				INFOPLIST_FILE = "punctArt : Loading Culture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MihaiH.punctArt---Loading-Culture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		916B04A11E98E43F00813628 /* Build configuration list for PBXProject "punctArt : Loading Culture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916B04BE1E98E44200813628 /* Debug */,
+				916B04BF1E98E44200813628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916B04C01E98E44200813628 /* Build configuration list for PBXNativeTarget "punctArt : Loading Culture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916B04C11E98E44200813628 /* Debug */,
+				916B04C21E98E44200813628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		916B04B51E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				916B04B61E98E44200813628 /* punctArt___Loading_Culture.xcdatamodel */,
+			);
+			currentVersion = 916B04B61E98E44200813628 /* punctArt___Loading_Culture.xcdatamodel */;
+			path = punctArt___Loading_Culture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 916B049E1E98E43F00813628 /* Project object */;
+}
