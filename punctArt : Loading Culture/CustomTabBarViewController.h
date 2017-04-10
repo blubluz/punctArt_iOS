@@ -29,7 +29,4 @@
 @property (weak, nonatomic) IBOutlet UIView *container;
 
 
--(void) presentSubview:(UIView *)view;
--(void) removeSubview:(UIView *)view;
-
 @end

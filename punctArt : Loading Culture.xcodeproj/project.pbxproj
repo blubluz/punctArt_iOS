@@ -21,6 +21,16 @@
 		916B04B91E98E44200813628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916B04B81E98E44200813628 /* Assets.xcassets */; };
 		916B04BC1E98E44200813628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916B04BA1E98E44200813628 /* LaunchScreen.storyboard */; };
 		916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B04C51E98E6E200813628 /* CustomTabBarViewController.m */; };
+		F7498A661E9BF00D0067413E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A651E9BF00D0067413E /* HttpClient.m */; };
+		F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A6E1E9BF14F0067413E /* BaseResponse.m */; };
+		F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A711E9BF1860067413E /* NSDictionary+Common.m */; };
+		F7498A751E9BF6630067413E /* PlayRepresentationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A741E9BF6630067413E /* PlayRepresentationModel.m */; };
+		F7498A781E9BF6C90067413E /* TheaterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A771E9BF6C90067413E /* TheaterModel.m */; };
+		F7498A7B1E9BF8470067413E /* PlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A7A1E9BF8470067413E /* PlayModel.m */; };
+		F7498A7E1E9BF8FE0067413E /* ActorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A7D1E9BF8FE0067413E /* ActorModel.m */; };
+		F7498A821E9BFD330067413E /* NSArray+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A811E9BFD330067413E /* NSArray+Common.m */; };
+		F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */; };
+		F7498A891E9C10350067413E /* LocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A881E9C10350067413E /* LocationMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,14 +51,38 @@
 		916B04AC1E98E44200813628 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		916B04AD1E98E44200813628 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		916B04B31E98E44200813628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		916B04B61E98E44200813628 /* punctArt___Loading_Culture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = punctArt___Loading_Culture.xcdatamodel; sourceTree = "<group>"; };
+		916B04B61E98E44200813628 /* punctArt___Loading_Culture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "punctArt___Loading_Culture.xcdatamodel"; sourceTree = "<group>"; };
 		916B04B81E98E44200813628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		916B04BB1E98E44200813628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		916B04BD1E98E44200813628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		916B04C41E98E6E200813628 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
 		916B04C51E98E6E200813628 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
-		CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_punctArt___Loading_Culture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_punctArt___Loading_Culture.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389D8C33C0011462321701E /* Pods-punctArt : Loading Culture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-punctArt : Loading Culture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture.debug.xcconfig"; sourceTree = "<group>"; };
+		F7498A641E9BF00D0067413E /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		F7498A651E9BF00D0067413E /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		F7498A671E9BF0280067413E /* PunctArtHeaders.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PunctArtHeaders.pch; sourceTree = "<group>"; };
+		F7498A6A1E9BF0E80067413E /* MultipartRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipartRequestProtocol.h; sourceTree = "<group>"; };
+		F7498A6B1E9BF0E80067413E /* RequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestProtocol.h; sourceTree = "<group>"; };
+		F7498A6C1E9BF0FE0067413E /* RequestPaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestPaths.h; sourceTree = "<group>"; };
+		F7498A6D1E9BF14F0067413E /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		F7498A6E1E9BF14F0067413E /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		F7498A701E9BF1860067413E /* NSDictionary+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Common.h"; sourceTree = "<group>"; };
+		F7498A711E9BF1860067413E /* NSDictionary+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Common.m"; sourceTree = "<group>"; };
+		F7498A731E9BF6630067413E /* PlayRepresentationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayRepresentationModel.h; sourceTree = "<group>"; };
+		F7498A741E9BF6630067413E /* PlayRepresentationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayRepresentationModel.m; sourceTree = "<group>"; };
+		F7498A761E9BF6C90067413E /* TheaterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheaterModel.h; sourceTree = "<group>"; };
+		F7498A771E9BF6C90067413E /* TheaterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheaterModel.m; sourceTree = "<group>"; };
+		F7498A791E9BF8470067413E /* PlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayModel.h; sourceTree = "<group>"; };
+		F7498A7A1E9BF8470067413E /* PlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayModel.m; sourceTree = "<group>"; };
+		F7498A7C1E9BF8FE0067413E /* ActorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorModel.h; sourceTree = "<group>"; };
+		F7498A7D1E9BF8FE0067413E /* ActorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorModel.m; sourceTree = "<group>"; };
+		F7498A801E9BFD330067413E /* NSArray+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Common.h"; sourceTree = "<group>"; };
+		F7498A811E9BFD330067413E /* NSArray+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Common.m"; sourceTree = "<group>"; };
+		F7498A831E9BFE580067413E /* GetPlayRepresRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPlayRepresRequest.h; sourceTree = "<group>"; };
+		F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPlayRepresRequest.m; sourceTree = "<group>"; };
+		F7498A871E9C10350067413E /* LocationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMapViewController.h; sourceTree = "<group>"; };
+		F7498A881E9C10350067413E /* LocationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +146,10 @@
 		913B0BF01E98FF01006B8546 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				F7498A801E9BFD330067413E /* NSArray+Common.h */,
+				F7498A811E9BFD330067413E /* NSArray+Common.m */,
+				F7498A701E9BF1860067413E /* NSDictionary+Common.h */,
+				F7498A711E9BF1860067413E /* NSDictionary+Common.m */,
 				913B0BF11E98FF0D006B8546 /* UIViewController+ZooUrban.h */,
 				913B0BF21E98FF0D006B8546 /* UIViewController+ZooUrban.m */,
 			);
@@ -131,6 +169,7 @@
 		916B049D1E98E43F00813628 = {
 			isa = PBXGroup;
 			children = (
+				F7498A671E9BF0280067413E /* PunctArtHeaders.pch */,
 				916B04A81E98E44200813628 /* punctArt : Loading Culture */,
 				916B04A71E98E44200813628 /* Products */,
 				367218754BEB0630E8B12651 /* Pods */,
@@ -177,6 +216,8 @@
 				913B0BE41E98FCD0006B8546 /* Profile */,
 				913B0BE31E98FCCA006B8546 /* Shows */,
 				913B0BE21E98FCC1006B8546 /* TabBar */,
+				F7498A871E9C10350067413E /* LocationMapViewController.h */,
+				F7498A881E9C10350067413E /* LocationMapViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -192,6 +233,14 @@
 		916B04C91E98E6F400813628 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F7498A731E9BF6630067413E /* PlayRepresentationModel.h */,
+				F7498A741E9BF6630067413E /* PlayRepresentationModel.m */,
+				F7498A761E9BF6C90067413E /* TheaterModel.h */,
+				F7498A771E9BF6C90067413E /* TheaterModel.m */,
+				F7498A791E9BF8470067413E /* PlayModel.h */,
+				F7498A7A1E9BF8470067413E /* PlayModel.m */,
+				F7498A7C1E9BF8FE0067413E /* ActorModel.h */,
+				F7498A7D1E9BF8FE0067413E /* ActorModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -199,6 +248,11 @@
 		916B04CA1E98E6FA00813628 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				F7498A6C1E9BF0FE0067413E /* RequestPaths.h */,
+				F7498A691E9BF0E30067413E /* Protocols */,
+				F7498A681E9BF0950067413E /* Requests */,
+				F7498A641E9BF00D0067413E /* HttpClient.h */,
+				F7498A651E9BF00D0067413E /* HttpClient.m */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -228,6 +282,26 @@
 				916B04BD1E98E44200813628 /* Info.plist */,
 			);
 			name = "AppDelegate&plist";
+			sourceTree = "<group>";
+		};
+		F7498A681E9BF0950067413E /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				F7498A831E9BFE580067413E /* GetPlayRepresRequest.h */,
+				F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		F7498A691E9BF0E30067413E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F7498A6D1E9BF14F0067413E /* BaseResponse.h */,
+				F7498A6E1E9BF14F0067413E /* BaseResponse.m */,
+				F7498A6A1E9BF0E80067413E /* MultipartRequestProtocol.h */,
+				F7498A6B1E9BF0E80067413E /* RequestProtocol.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 		FF25AC2A4715AED931A2799B /* Frameworks */ = {
@@ -273,6 +347,7 @@
 					916B04A51E98E43F00813628 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 339G5DV22M;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -362,15 +437,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7498A751E9BF6630067413E /* PlayRepresentationModel.m in Sources */,
+				F7498A7E1E9BF8FE0067413E /* ActorModel.m in Sources */,
 				913B0BEE1E98FD86006B8546 /* ShowsViewController.m in Sources */,
 				916B04AE1E98E44200813628 /* AppDelegate.m in Sources */,
+				F7498A781E9BF6C90067413E /* TheaterModel.m in Sources */,
+				F7498A7B1E9BF8470067413E /* PlayModel.m in Sources */,
+				F7498A661E9BF00D0067413E /* HttpClient.m in Sources */,
+				F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */,
 				916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */,
+				F7498A821E9BFD330067413E /* NSArray+Common.m in Sources */,
 				916B04B71E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld in Sources */,
 				913B0BF81E990A4C006B8546 /* ShowTableViewCell.m in Sources */,
 				916B04AB1E98E44200813628 /* main.m in Sources */,
+				F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */,
+				F7498A891E9C10350067413E /* LocationMapViewController.m in Sources */,
 				913B0BE81E98FCF5006B8546 /* ShowNavigationController.m in Sources */,
 				913B0BF31E98FF0D006B8546 /* UIViewController+ZooUrban.m in Sources */,
 				913B0BEB1E98FD08006B8546 /* ProfileNavigationController.m in Sources */,
+				F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,10 +575,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 339G5DV22M;
+				GCC_PREFIX_HEADER = PunctArtHeaders.pch;
 				INFOPLIST_FILE = "punctArt : Loading Culture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MihaiH.punctArt---Loading-Culture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -503,10 +591,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 339G5DV22M;
+				GCC_PREFIX_HEADER = PunctArtHeaders.pch;
 				INFOPLIST_FILE = "punctArt : Loading Culture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MihaiH.punctArt---Loading-Culture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -540,7 +631,7 @@
 				916B04B61E98E44200813628 /* punctArt___Loading_Culture.xcdatamodel */,
 			);
 			currentVersion = 916B04B61E98E44200813628 /* punctArt___Loading_Culture.xcdatamodel */;
-			path = punctArt___Loading_Culture.xcdatamodeld;
+			path = "punctArt___Loading_Culture.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

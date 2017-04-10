@@ -13,8 +13,6 @@ pod 'TPKeyboardAvoiding’, '~> 1.3'
 pod 'SDWebImage'
 pod 'SVProgressHUD'
 pod 'GoogleMaps'
-pod 'GooglePlacesAPI'
-pod "MXParallaxHeader"
-
+pod 'MXParallaxHeader'
 
 end
