@@ -7,7 +7,8 @@
 //
 
 #import "LocationMapViewController.h"
-
+#import <AFNetworking/AFNetworking.h>
+#import "AWDirectionsViewController.h"
 @interface LocationMapViewController ()<GMSMapViewDelegate, CLLocationManagerDelegate>
 
 @property(nonatomic) CLLocationManager *locationManager;
@@ -73,6 +74,19 @@
     self.meMarker.map = self.mapView;
     
     //self.view = mapView;
+}
+- (IBAction)getDirectionsButtonTapped:(id)sender {
+  
+    
+    UIStoryboard *storyboard = self.storyboard;
+    AWDirectionsViewController *directionsVC = (AWDirectionsViewController *) [storyboard instantiateViewControllerWithIdentifier:@"AWDirectionsViewController"];
+    
+    directionsVC.myLatitude = self.mapView.myLocation.coordinate.latitude;
+    directionsVC.myLongitude = self.mapView.myLocation.coordinate.longitude;
+    directionsVC.latitude = self.theater.latitude;
+    directionsVC.longitude = self.theater.longitude;
+    
+    [self.navigationController pushViewController:directionsVC animated:YES];
 }
 - (void)locationManager:(CLLocationManager *)manager
      didUpdateLocations:(NSArray *)locations {

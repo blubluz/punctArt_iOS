@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AWDirectionsViewController : UIViewController <CustomNavigationBarDelegate>
+@interface AWDirectionsViewController : UIViewController 
 
 
 @property(nonatomic, strong) NSNumber *latitude;

@@ -30,7 +30,7 @@
         return nil;
     }
 
-    self.level = AFLoggerLevelInfo;
+    self.level = AFLoggerLevelDebug;
 
     return self;
 }

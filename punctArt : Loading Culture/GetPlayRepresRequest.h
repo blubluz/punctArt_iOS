@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "PlayRepresentationModel.h"
 @interface GetPlayRepresRequest : NSObject <RequestProtocol>
-
+@property(strong, nonatomic) NSString *orderType; //date/rating 
 @end
 
 @interface GetPlayRepresResponse : BaseResponse

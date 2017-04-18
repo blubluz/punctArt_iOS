@@ -19,7 +19,12 @@
     return RequestMethodTypeGET;
 }
 -(NSDictionary *)dictionaryForm{
-    return nil;
+    NSMutableDictionary *jsonDict = [[NSMutableDictionary alloc] init];
+    if(self.orderType)
+        jsonDict[@"order"] = self.orderType;
+    else
+        jsonDict[@"order"] = @"date";
+    return jsonDict;
 }
 -(Class)responseClass{
     return [GetPlayRepresResponse class];

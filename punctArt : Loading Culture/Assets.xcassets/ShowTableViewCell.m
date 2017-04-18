@@ -33,7 +33,6 @@
     
     
     
-    if(currentComponents.month == dateComponents.month && currentComponents.year == dateComponents.year){
         if(currentComponents.day == dateComponents.day ){
             prettyDateFormatter.dateFormat = @"hh:mm";
             self.dateLabel.text = [NSString stringWithFormat:@"Azi, %@",[prettyDateFormatter stringFromDate:playRep.date]];
@@ -43,12 +42,14 @@
                 prettyDateFormatter.dateFormat = @"hh:mm";
                 self.dateLabel.text = [NSString stringWithFormat:@"Mâine, %@",[prettyDateFormatter stringFromDate:playRep.date]];
             }
-            else{
-                prettyDateFormatter.dateFormat = @"EEEE, MMM d, hh:mm";
-                self.dateLabel.text = [NSString stringWithFormat:@"%@",[prettyDateFormatter stringFromDate:playRep.date]];
-            }
-    }
+        else{
+            prettyDateFormatter.dateFormat = @"EEEE, MMM d, hh:mm";
+            self.dateLabel.text = [NSString stringWithFormat:@"%@",[prettyDateFormatter stringFromDate:playRep.date]];
+        }
     
+}
+-(void)prepareForReuse{
+    self.dateLabel.text = @"-";
 }
 - (IBAction)moreOptionsButtonTapped:(id)sender {
     if([self.delegate respondsToSelector:@selector(moreOptionsTappedForPlayRep:)]){

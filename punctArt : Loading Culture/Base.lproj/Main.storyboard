@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +17,7 @@
         <scene sceneID="0kQ-ph-4gK">
             <objects>
                 <navigationController storyboardIdentifier="ShowNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OjR-Ei-4bb" customClass="ShowNavigationController" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ucB-g9-bDh">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ucB-g9-bDh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -244,6 +243,13 @@
                             <constraint firstItem="jKj-Uq-Rny" firstAttribute="leading" secondItem="7GY-ff-P3H" secondAttribute="leading" id="hD6-T9-Jew"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vxu-DU-6VU">
+                        <barButtonItem key="rightBarButtonItem" title="Obtine directii" id="3TQ-PQ-X7a">
+                            <connections>
+                                <action selector="getDirectionsButtonTapped:" destination="PG9-qS-QjD" id="G4V-Wq-eVZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="jKj-Uq-Rny" id="FAV-C8-6zj"/>
                     </connections>
@@ -256,7 +262,7 @@
         <scene sceneID="HFt-kz-BHU">
             <objects>
                 <navigationController storyboardIdentifier="ProfileNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CDs-2H-dVw" customClass="ProfileNavigationController" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Gc4-Q2-z8y">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gc4-Q2-z8y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -286,6 +292,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p0j-ZJ-a3p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1156" y="375"/>
+        </scene>
+        <!--Directions View Controller-->
+        <scene sceneID="jNh-07-P0P">
+            <objects>
+                <viewController storyboardIdentifier="AWDirectionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lpq-0A-pHD" customClass="AWDirectionsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nLj-ay-Jaq"/>
+                        <viewControllerLayoutGuide type="bottom" id="0zt-Bq-Qaq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WcN-bl-eRy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2B3-Lm-JlL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Lpq-0A-pHD" id="CSi-OO-q4e"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0zt-Bq-Qaq" firstAttribute="top" secondItem="2B3-Lm-JlL" secondAttribute="bottom" id="I94-td-bWI"/>
+                            <constraint firstItem="2B3-Lm-JlL" firstAttribute="top" secondItem="WcN-bl-eRy" secondAttribute="top" id="Qds-yf-AQd"/>
+                            <constraint firstItem="2B3-Lm-JlL" firstAttribute="leading" secondItem="WcN-bl-eRy" secondAttribute="leading" id="oaV-BI-UzI"/>
+                            <constraint firstAttribute="trailing" secondItem="2B3-Lm-JlL" secondAttribute="trailing" id="qFN-PQ-zLy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="2B3-Lm-JlL" id="noh-o8-jbU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69U-ck-bbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3033" y="817"/>
         </scene>
     </scenes>
     <resources>

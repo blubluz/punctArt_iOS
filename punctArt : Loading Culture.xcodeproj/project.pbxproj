@@ -21,6 +21,7 @@
 		916B04B91E98E44200813628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916B04B81E98E44200813628 /* Assets.xcassets */; };
 		916B04BC1E98E44200813628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916B04BA1E98E44200813628 /* LaunchScreen.storyboard */; };
 		916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B04C51E98E6E200813628 /* CustomTabBarViewController.m */; };
+		91A5A5FF1E9D5A770012903F /* AWDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */; };
 		F7498A661E9BF00D0067413E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A651E9BF00D0067413E /* HttpClient.m */; };
 		F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A6E1E9BF14F0067413E /* BaseResponse.m */; };
 		F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A711E9BF1860067413E /* NSDictionary+Common.m */; };
@@ -57,6 +58,8 @@
 		916B04BD1E98E44200813628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		916B04C41E98E6E200813628 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
 		916B04C51E98E6E200813628 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		91A5A5FD1E9D5A770012903F /* AWDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDirectionsViewController.h; sourceTree = "<group>"; };
+		91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDirectionsViewController.m; sourceTree = "<group>"; };
 		CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_punctArt___Loading_Culture.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389D8C33C0011462321701E /* Pods-punctArt : Loading Culture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-punctArt : Loading Culture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture.debug.xcconfig"; sourceTree = "<group>"; };
 		F7498A641E9BF00D0067413E /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 		916B04C71E98E6EA00813628 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				91A5A5FD1E9D5A770012903F /* AWDirectionsViewController.h */,
+				91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */,
 				913B0BE41E98FCD0006B8546 /* Profile */,
 				913B0BE31E98FCCA006B8546 /* Shows */,
 				913B0BE21E98FCC1006B8546 /* TabBar */,
@@ -447,6 +452,7 @@
 				F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */,
 				916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */,
 				F7498A821E9BFD330067413E /* NSArray+Common.m in Sources */,
+				91A5A5FF1E9D5A770012903F /* AWDirectionsViewController.m in Sources */,
 				916B04B71E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld in Sources */,
 				913B0BF81E990A4C006B8546 /* ShowTableViewCell.m in Sources */,
 				916B04AB1E98E44200813628 /* main.m in Sources */,
