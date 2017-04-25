@@ -17,4 +17,13 @@
 #import "NSArray+Common.h"
 #import "RequestProtocol.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import "LoggedUser.h"
+#import "AlertManager.h"
+#import "Enums.h"
+#import "SessionManager.h"
+
+
+#define kClientId       @"qnYC37HpvfE5Wzlc4bAJLDBCkqYVkf1rPDsLzkzf"
+#define kClientSecret   @"bHGY1c17a7MIUkPbFUFfNiZlc5aoEiTJjIJlh78xXRcb9YI2kXTfhg7fYc7cn4aIzi8s1rBjFETChzHuQctyhPQONtLg5Vug4gS4vzGdxKh9rkjfkDw8YQehaIorULAB"
+
 #endif /* PunctArtHeaders_pch */

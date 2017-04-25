@@ -13,9 +13,8 @@
 
 
 @property (nonatomic) BOOL success;
-@property (strong, nonatomic) NSString *errorMessage;
-@property (strong, nonatomic) NSString *type;
-@property (strong, nonatomic) NSString *message;
+@property (strong, nonatomic) NSString *errorDescription;
+@property (strong, nonatomic) NSString *error;
 
 -(id)initWithDictionary:(NSDictionary*)dict;
 -(id)initWithArray:(NSArray *)array;

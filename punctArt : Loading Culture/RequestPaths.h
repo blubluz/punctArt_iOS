@@ -10,5 +10,5 @@
 #define RequestPaths_h
 
 #define kGetPlayRepres @"playsRepresentations"
-
+#define kLogin @"auth/convert-token/"
 #endif /* RequestPaths_h */

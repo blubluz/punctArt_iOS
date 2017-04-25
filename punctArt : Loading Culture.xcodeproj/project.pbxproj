@@ -21,6 +21,29 @@
 		916B04B91E98E44200813628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916B04B81E98E44200813628 /* Assets.xcassets */; };
 		916B04BC1E98E44200813628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916B04BA1E98E44200813628 /* LaunchScreen.storyboard */; };
 		916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B04C51E98E6E200813628 /* CustomTabBarViewController.m */; };
+		91A4F1ED1EAFD8F60002A82B /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1E81EAFD8F60002A82B /* AccountKit.framework */; };
+		91A4F1EE1EAFD8F60002A82B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1E91EAFD8F60002A82B /* Bolts.framework */; };
+		91A4F1EF1EAFD8F60002A82B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EA1EAFD8F60002A82B /* FBSDKCoreKit.framework */; };
+		91A4F1F01EAFD8F60002A82B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EB1EAFD8F60002A82B /* FBSDKLoginKit.framework */; };
+		91A4F1F11EAFD8F60002A82B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EC1EAFD8F60002A82B /* FBSDKShareKit.framework */; };
+		91A4F1F21EAFDC080002A82B /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1E81EAFD8F60002A82B /* AccountKit.framework */; };
+		91A4F1F31EAFDC080002A82B /* AccountKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1E81EAFD8F60002A82B /* AccountKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91A4F1F41EAFDC080002A82B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1E91EAFD8F60002A82B /* Bolts.framework */; };
+		91A4F1F51EAFDC080002A82B /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1E91EAFD8F60002A82B /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91A4F1F61EAFDC080002A82B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EA1EAFD8F60002A82B /* FBSDKCoreKit.framework */; };
+		91A4F1F71EAFDC080002A82B /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EA1EAFD8F60002A82B /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91A4F1F81EAFDC080002A82B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EB1EAFD8F60002A82B /* FBSDKLoginKit.framework */; };
+		91A4F1F91EAFDC080002A82B /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EB1EAFD8F60002A82B /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91A4F1FA1EAFDC080002A82B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EC1EAFD8F60002A82B /* FBSDKShareKit.framework */; };
+		91A4F1FB1EAFDC080002A82B /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4F1EC1EAFD8F60002A82B /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91A4F1FF1EAFDDC00002A82B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F1FE1EAFDDC00002A82B /* LoginViewController.m */; };
+		91A4F2031EAFDF6E0002A82B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F2021EAFDF6E0002A82B /* ProfileViewController.m */; };
+		91A4F2061EAFE9BA0002A82B /* LoggedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F2051EAFE9BA0002A82B /* LoggedUser.m */; };
+		91A4F2091EAFEB020002A82B /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F2081EAFEB020002A82B /* AlertManager.m */; };
+		91A4F20C1EAFF2730002A82B /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F20B1EAFF2730002A82B /* LoginRequest.m */; };
+		91A4F20F1EAFF2F80002A82B /* Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F20E1EAFF2F80002A82B /* Enums.m */; };
+		91A4F2141EAFFFFB0002A82B /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F2111EAFFFFB0002A82B /* Session.m */; };
+		91A4F2151EAFFFFB0002A82B /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F2131EAFFFFB0002A82B /* SessionManager.m */; };
 		91A5A5FF1E9D5A770012903F /* AWDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */; };
 		F7498A661E9BF00D0067413E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A651E9BF00D0067413E /* HttpClient.m */; };
 		F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A6E1E9BF14F0067413E /* BaseResponse.m */; };
@@ -33,6 +56,24 @@
 		F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */; };
 		F7498A891E9C10350067413E /* LocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A881E9C10350067413E /* LocationMapViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91A4F1FC1EAFDC080002A82B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91A4F1F31EAFDC080002A82B /* AccountKit.framework in Embed Frameworks */,
+				91A4F1F71EAFDC080002A82B /* FBSDKCoreKit.framework in Embed Frameworks */,
+				91A4F1FB1EAFDC080002A82B /* FBSDKShareKit.framework in Embed Frameworks */,
+				91A4F1F91EAFDC080002A82B /* FBSDKLoginKit.framework in Embed Frameworks */,
+				91A4F1F51EAFDC080002A82B /* Bolts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		89187CECE7A7E80A4626313A /* Pods-punctArt : Loading Culture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-punctArt : Loading Culture.release.xcconfig"; path = "Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +99,27 @@
 		916B04BD1E98E44200813628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		916B04C41E98E6E200813628 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
 		916B04C51E98E6E200813628 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		91A4F1E81EAFD8F60002A82B /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		91A4F1E91EAFD8F60002A82B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		91A4F1EA1EAFD8F60002A82B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		91A4F1EB1EAFD8F60002A82B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		91A4F1EC1EAFD8F60002A82B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		91A4F1FD1EAFDDC00002A82B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		91A4F1FE1EAFDDC00002A82B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		91A4F2011EAFDF6E0002A82B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		91A4F2021EAFDF6E0002A82B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		91A4F2041EAFE9BA0002A82B /* LoggedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggedUser.h; sourceTree = "<group>"; };
+		91A4F2051EAFE9BA0002A82B /* LoggedUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggedUser.m; sourceTree = "<group>"; };
+		91A4F2071EAFEB020002A82B /* AlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertManager.h; sourceTree = "<group>"; };
+		91A4F2081EAFEB020002A82B /* AlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertManager.m; sourceTree = "<group>"; };
+		91A4F20A1EAFF2730002A82B /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		91A4F20B1EAFF2730002A82B /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		91A4F20D1EAFF2F80002A82B /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		91A4F20E1EAFF2F80002A82B /* Enums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enums.m; sourceTree = "<group>"; };
+		91A4F2101EAFFFFB0002A82B /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		91A4F2111EAFFFFB0002A82B /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		91A4F2121EAFFFFB0002A82B /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		91A4F2131EAFFFFB0002A82B /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		91A5A5FD1E9D5A770012903F /* AWDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDirectionsViewController.h; sourceTree = "<group>"; };
 		91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDirectionsViewController.m; sourceTree = "<group>"; };
 		CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_punctArt___Loading_Culture.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +155,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A4F1EE1EAFD8F60002A82B /* Bolts.framework in Frameworks */,
+				91A4F1EF1EAFD8F60002A82B /* FBSDKCoreKit.framework in Frameworks */,
+				91A4F1F81EAFDC080002A82B /* FBSDKLoginKit.framework in Frameworks */,
+				91A4F1F21EAFDC080002A82B /* AccountKit.framework in Frameworks */,
+				91A4F1F11EAFD8F60002A82B /* FBSDKShareKit.framework in Frameworks */,
+				91A4F1F01EAFD8F60002A82B /* FBSDKLoginKit.framework in Frameworks */,
+				91A4F1FA1EAFDC080002A82B /* FBSDKShareKit.framework in Frameworks */,
 				66BD65518B9FDF20E50EA3C1 /* Pods_punctArt___Loading_Culture.framework in Frameworks */,
+				91A4F1ED1EAFD8F60002A82B /* AccountKit.framework in Frameworks */,
+				91A4F1F61EAFDC080002A82B /* FBSDKCoreKit.framework in Frameworks */,
+				91A4F1F41EAFDC080002A82B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +206,10 @@
 			children = (
 				913B0BE91E98FD08006B8546 /* ProfileNavigationController.h */,
 				913B0BEA1E98FD08006B8546 /* ProfileNavigationController.m */,
+				91A4F1FD1EAFDDC00002A82B /* LoginViewController.h */,
+				91A4F1FE1EAFDDC00002A82B /* LoginViewController.m */,
+				91A4F2011EAFDF6E0002A82B /* ProfileViewController.h */,
+				91A4F2021EAFDF6E0002A82B /* ProfileViewController.m */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -141,7 +217,16 @@
 		913B0BEF1E98FEF7006B8546 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				91A4F2101EAFFFFB0002A82B /* Session.h */,
+				91A4F2111EAFFFFB0002A82B /* Session.m */,
+				91A4F2121EAFFFFB0002A82B /* SessionManager.h */,
+				91A4F2131EAFFFFB0002A82B /* SessionManager.m */,
+				91A4F2071EAFEB020002A82B /* AlertManager.h */,
+				91A4F2081EAFEB020002A82B /* AlertManager.m */,
+				91A4F1E71EAFD8EB0002A82B /* Facebook SDK */,
 				913B0BF01E98FF01006B8546 /* Categories */,
+				91A4F20D1EAFF2F80002A82B /* Enums.h */,
+				91A4F20E1EAFF2F80002A82B /* Enums.m */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -238,6 +323,8 @@
 		916B04C91E98E6F400813628 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				91A4F2041EAFE9BA0002A82B /* LoggedUser.h */,
+				91A4F2051EAFE9BA0002A82B /* LoggedUser.m */,
 				F7498A731E9BF6630067413E /* PlayRepresentationModel.h */,
 				F7498A741E9BF6630067413E /* PlayRepresentationModel.m */,
 				F7498A761E9BF6C90067413E /* TheaterModel.h */,
@@ -289,11 +376,25 @@
 			name = "AppDelegate&plist";
 			sourceTree = "<group>";
 		};
+		91A4F1E71EAFD8EB0002A82B /* Facebook SDK */ = {
+			isa = PBXGroup;
+			children = (
+				91A4F1E81EAFD8F60002A82B /* AccountKit.framework */,
+				91A4F1E91EAFD8F60002A82B /* Bolts.framework */,
+				91A4F1EA1EAFD8F60002A82B /* FBSDKCoreKit.framework */,
+				91A4F1EB1EAFD8F60002A82B /* FBSDKLoginKit.framework */,
+				91A4F1EC1EAFD8F60002A82B /* FBSDKShareKit.framework */,
+			);
+			name = "Facebook SDK";
+			sourceTree = "<group>";
+		};
 		F7498A681E9BF0950067413E /* Requests */ = {
 			isa = PBXGroup;
 			children = (
 				F7498A831E9BFE580067413E /* GetPlayRepresRequest.h */,
 				F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */,
+				91A4F20A1EAFF2730002A82B /* LoginRequest.h */,
+				91A4F20B1EAFF2730002A82B /* LoginRequest.m */,
 			);
 			name = Requests;
 			sourceTree = "<group>";
@@ -330,6 +431,7 @@
 				916B04A41E98E43F00813628 /* Resources */,
 				FEA78208FE53147EEA2DEA55 /* [CP] Embed Pods Frameworks */,
 				A9E988C08728E37DD6EBB43D /* [CP] Copy Pods Resources */,
+				91A4F1FC1EAFDC080002A82B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -450,10 +552,17 @@
 				F7498A7B1E9BF8470067413E /* PlayModel.m in Sources */,
 				F7498A661E9BF00D0067413E /* HttpClient.m in Sources */,
 				F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */,
+				91A4F2141EAFFFFB0002A82B /* Session.m in Sources */,
+				91A4F20F1EAFF2F80002A82B /* Enums.m in Sources */,
+				91A4F2031EAFDF6E0002A82B /* ProfileViewController.m in Sources */,
 				916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */,
 				F7498A821E9BFD330067413E /* NSArray+Common.m in Sources */,
 				91A5A5FF1E9D5A770012903F /* AWDirectionsViewController.m in Sources */,
+				91A4F2091EAFEB020002A82B /* AlertManager.m in Sources */,
+				91A4F1FF1EAFDDC00002A82B /* LoginViewController.m in Sources */,
+				91A4F20C1EAFF2730002A82B /* LoginRequest.m in Sources */,
 				916B04B71E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld in Sources */,
+				91A4F2061EAFE9BA0002A82B /* LoggedUser.m in Sources */,
 				913B0BF81E990A4C006B8546 /* ShowTableViewCell.m in Sources */,
 				916B04AB1E98E44200813628 /* main.m in Sources */,
 				F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */,
@@ -461,6 +570,7 @@
 				913B0BE81E98FCF5006B8546 /* ShowNavigationController.m in Sources */,
 				913B0BF31E98FF0D006B8546 /* UIViewController+ZooUrban.m in Sources */,
 				913B0BEB1E98FD08006B8546 /* ProfileNavigationController.m in Sources */,
+				91A4F2151EAFFFFB0002A82B /* SessionManager.m in Sources */,
 				F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +691,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 339G5DV22M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture/**",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+				);
 				GCC_PREFIX_HEADER = PunctArtHeaders.pch;
 				INFOPLIST_FILE = "punctArt : Loading Culture/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -597,6 +720,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 339G5DV22M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture/**",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+					"$(PROJECT_DIR)/punctArt\\ :\\ Loading\\ Culture",
+				);
 				GCC_PREFIX_HEADER = PunctArtHeaders.pch;
 				INFOPLIST_FILE = "punctArt : Loading Culture/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

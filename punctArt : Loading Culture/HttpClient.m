@@ -9,8 +9,6 @@
 #import "HttpClient.h"
 
 
-//#define kBaseRequestURL    @"https://api.ligaultras.com/v1.0/"
-//#define kBaseUploadURL     @"http://api.ligaultras.com/v1.0/"
 #define kBaseRequestURL    @"https://artloadingculture.herokuapp.com/"
 #define kBaseUploadURL     @"https://artloadingculture.herokuapp.com/"
 

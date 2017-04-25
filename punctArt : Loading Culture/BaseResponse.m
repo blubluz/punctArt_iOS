@@ -14,9 +14,8 @@
 {
     if (self = [super init])
     {
-        self.message = [dict safeObjectForKey:@"message"];
-        self.errorMessage = [dict safeStringForKey:@"error"];
-        self.type = [dict safeStringForKey:@"type"];
+        self.error = [dict safeObjectForKey:@"error"];
+        self.errorDescription = [dict safeObjectForKey:@"error_description"];
     }
     return self;
 }
