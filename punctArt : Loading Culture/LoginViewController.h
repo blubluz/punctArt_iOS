@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@protocol LoginControllerDelegate <NSObject>
+-(void)closeButtonTapped;
+@end
 @interface LoginViewController : UIViewController
-
+@property(weak, nonatomic) id<LoginControllerDelegate> delegate;
 @end

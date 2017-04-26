@@ -21,8 +21,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     UIBlurEffect * blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
     UIVisualEffectView *beView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
     beView.frame = self.view.bounds;
@@ -30,10 +28,17 @@
     self.view.frame = self.view.bounds;
     self.view.backgroundColor = [UIColor clearColor];
     [self.view insertSubview:beView atIndex:0];
+    [self.view setNeedsLayout];
+    [self.view layoutIfNeeded];
     
 }
 - (IBAction)closeButtonTapped:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:^{
+        if([self.delegate respondsToSelector:@selector(closeButtonTapped)]){
+            [self.delegate closeButtonTapped];
+        }
+    }];
+   
 }
 - (IBAction)loginButtonTapped:(id)sender {
     FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
@@ -43,10 +48,11 @@
     {
         login.loginBehavior = FBSDKLoginBehaviorSystemAccount;
     }
-    
+    [SVProgressHUD show];
     [login logInWithReadPermissions:@[@"public_profile", @"email"] fromViewController:self handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
         if (error)
         {
+            [SVProgressHUD dismiss];
             self.fbLoginButton.enabled = YES;
             NSLog(@"Unexpected login error: %@", error);
             NSString *alertMessage = error.userInfo[FBSDKErrorLocalizedDescriptionKey] ?: @"There was a problem logging in. Please try again.";
@@ -57,6 +63,7 @@
         else
         {
             [[HttpClient sharedHTTPClient] performRequest:[[LoginRequest alloc] initWithToken:[FBSDKAccessToken currentAccessToken].tokenString andPlatform:Facebook] WithResponse:^(BaseResponse *response, NSError *error) {
+                [SVProgressHUD dismiss];
                 if(!error){
                     if(!response.error){
                         
