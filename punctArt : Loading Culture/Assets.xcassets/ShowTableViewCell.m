@@ -43,7 +43,7 @@
                 self.dateLabel.text = [NSString stringWithFormat:@"Mâine, %@",[prettyDateFormatter stringFromDate:playRep.date]];
             }
         else{
-            prettyDateFormatter.dateFormat = @"EEEE, MMM d, hh:mm";
+            prettyDateFormatter.dateFormat = @"EEEE,d MMM, hh:mm";
             self.dateLabel.text = [NSString stringWithFormat:@"%@",[prettyDateFormatter stringFromDate:playRep.date]];
         }
     

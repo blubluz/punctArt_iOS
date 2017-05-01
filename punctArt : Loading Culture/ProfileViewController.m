@@ -9,7 +9,9 @@
 #import "ProfileViewController.h"
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-@interface ProfileViewController ()<UITableViewDelegate,UITableViewDataSource>
+#import "CustomTabBarViewController.h"
+@interface ProfileViewController ()<UITableViewDelegate,UITableViewDataSource, LoginControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
 
 @end
 
@@ -19,6 +21,7 @@
     [super viewDidLoad];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.profileImageView.layer.cornerRadius = 8;
 }
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
@@ -26,7 +29,19 @@
     if(![FBSDKAccessToken currentAccessToken]){
         LoginViewController *loginVc = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
         loginVc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+        loginVc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+        loginVc.delegate = self;
+        //Bad implementation - Must create superclass with pointer to CustomTabBar.
         [self presentViewController:loginVc animated:YES completion:nil];
+    }
+}
+#pragma mark - LoginControllerDelegate
+-(void)closeButtonTapped{
+    
+    //Bad implementation - Must create superclass with pointer to CustomTabBar.
+    if([self.parentViewController.parentViewController isKindOfClass:[CustomTabBarViewController class]]){
+        CustomTabBarViewController *tabBar = (CustomTabBarViewController *)self.parentViewController.parentViewController;
+        [tabBar.showsButton sendActionsForControlEvents:UIControlEventTouchUpInside];
     }
 }
 #pragma mark - TableViewDelegate
@@ -36,7 +51,10 @@
         [login logOut];
         LoginViewController *loginVc = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
         loginVc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
-        [self presentViewController:loginVc animated:YES completion:nil];
+        loginVc.delegate = self;
+        dispatch_async (dispatch_get_main_queue(), ^{
+            [self presentViewController:loginVc animated:YES completion:nil];
+        });
     }
 }
 #pragma mark - TableViewDatasource
@@ -47,7 +65,7 @@
     return 1;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 15;
+    return 20;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell;

@@ -55,6 +55,7 @@
 		F7498A821E9BFD330067413E /* NSArray+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A811E9BFD330067413E /* NSArray+Common.m */; };
 		F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */; };
 		F7498A891E9C10350067413E /* LocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A881E9C10350067413E /* LocationMapViewController.m */; };
+		F7566F741EB0FB3A000083D0 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7566F731EB0FB3A000083D0 /* ShowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -148,6 +149,8 @@
 		F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPlayRepresRequest.m; sourceTree = "<group>"; };
 		F7498A871E9C10350067413E /* LocationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMapViewController.h; sourceTree = "<group>"; };
 		F7498A881E9C10350067413E /* LocationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMapViewController.m; sourceTree = "<group>"; };
+		F7566F721EB0FB3A000083D0 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		F7566F731EB0FB3A000083D0 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,8 @@
 				913B0BE71E98FCF5006B8546 /* ShowNavigationController.m */,
 				913B0BEC1E98FD86006B8546 /* ShowsViewController.h */,
 				913B0BED1E98FD86006B8546 /* ShowsViewController.m */,
+				F7566F721EB0FB3A000083D0 /* ShowViewController.h */,
+				F7566F731EB0FB3A000083D0 /* ShowViewController.m */,
 			);
 			name = Shows;
 			sourceTree = "<group>";
@@ -568,6 +573,7 @@
 				F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */,
 				F7498A891E9C10350067413E /* LocationMapViewController.m in Sources */,
 				913B0BE81E98FCF5006B8546 /* ShowNavigationController.m in Sources */,
+				F7566F741EB0FB3A000083D0 /* ShowViewController.m in Sources */,
 				913B0BF31E98FF0D006B8546 /* UIViewController+ZooUrban.m in Sources */,
 				913B0BEB1E98FD08006B8546 /* ProfileNavigationController.m in Sources */,
 				91A4F2151EAFFFFB0002A82B /* SessionManager.m in Sources */,
