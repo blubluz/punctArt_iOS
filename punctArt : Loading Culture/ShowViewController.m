@@ -16,8 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UIImage *transparentPixel = [UIImage imageNamed:@"transparent_pixel"];
+    [self.navigationController.navigationBar setBackgroundImage:transparentPixel forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.shadowImage = transparentPixel;
+    self.navigationController.navigationBar.backgroundColor = [UIColor clearColor];
+    [self.navigationController.navigationBar setTranslucent:YES];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

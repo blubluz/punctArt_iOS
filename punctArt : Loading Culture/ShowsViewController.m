@@ -75,12 +75,16 @@
     cell.delegate = self;
     return cell;
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self performSegueWithIdentifier:@"goToShow" sender:indexPath];
+}
 -(void)locationTappedForPlayRep:(PlayRepresentationModel *)playRep{
     NSLog(@"Location tapped");
     LocationMapViewController *locationVc = [self.storyboard instantiateViewControllerWithIdentifier:@"LocationMapViewController"];
     locationVc.theater = playRep.theater;
     [self.navigationController pushViewController:locationVc animated:YES];
 }
+
 -(void)moreOptionsTappedForPlayRep:(PlayRepresentationModel *)playRep{
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     UIAlertAction *shareButton = [UIAlertAction actionWithTitle:@"Share" style:UIAlertActionStyleDefault handler:nil];
@@ -98,14 +102,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if([segue.identifier isEqualToString:@"goToShow"]){
+        NSIndexPath *selectedPlayIndex = (NSIndexPath *)sender;
+        PlayRepresentationModel *selectedPlay = [self.playReps objectAtIndex:selectedPlayIndex.row];
+    }
 }
-*/
+
 
 @end

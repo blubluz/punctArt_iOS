@@ -45,6 +45,8 @@
 		91A4F2141EAFFFFB0002A82B /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F2111EAFFFFB0002A82B /* Session.m */; };
 		91A4F2151EAFFFFB0002A82B /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4F2131EAFFFFB0002A82B /* SessionManager.m */; };
 		91A5A5FF1E9D5A770012903F /* AWDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */; };
+		91B359401EC9C89600F6D2C7 /* ShowParallaxHeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3593F1EC9C89600F6D2C7 /* ShowParallaxHeaderController.m */; };
+		91B359431EC9D71B00F6D2C7 /* ShowScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B359421EC9D71B00F6D2C7 /* ShowScrollViewController.m */; };
 		F7498A661E9BF00D0067413E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A651E9BF00D0067413E /* HttpClient.m */; };
 		F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A6E1E9BF14F0067413E /* BaseResponse.m */; };
 		F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A711E9BF1860067413E /* NSDictionary+Common.m */; };
@@ -123,6 +125,10 @@
 		91A4F2131EAFFFFB0002A82B /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		91A5A5FD1E9D5A770012903F /* AWDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDirectionsViewController.h; sourceTree = "<group>"; };
 		91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDirectionsViewController.m; sourceTree = "<group>"; };
+		91B3593E1EC9C89600F6D2C7 /* ShowParallaxHeaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowParallaxHeaderController.h; sourceTree = "<group>"; };
+		91B3593F1EC9C89600F6D2C7 /* ShowParallaxHeaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowParallaxHeaderController.m; sourceTree = "<group>"; };
+		91B359411EC9D71B00F6D2C7 /* ShowScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowScrollViewController.h; sourceTree = "<group>"; };
+		91B359421EC9D71B00F6D2C7 /* ShowScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowScrollViewController.m; sourceTree = "<group>"; };
 		CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_punctArt___Loading_Culture.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389D8C33C0011462321701E /* Pods-punctArt : Loading Culture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-punctArt : Loading Culture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture.debug.xcconfig"; sourceTree = "<group>"; };
 		F7498A641E9BF00D0067413E /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
@@ -202,6 +208,10 @@
 				913B0BED1E98FD86006B8546 /* ShowsViewController.m */,
 				F7566F721EB0FB3A000083D0 /* ShowViewController.h */,
 				F7566F731EB0FB3A000083D0 /* ShowViewController.m */,
+				91B3593E1EC9C89600F6D2C7 /* ShowParallaxHeaderController.h */,
+				91B3593F1EC9C89600F6D2C7 /* ShowParallaxHeaderController.m */,
+				91B359411EC9D71B00F6D2C7 /* ShowScrollViewController.h */,
+				91B359421EC9D71B00F6D2C7 /* ShowScrollViewController.m */,
 			);
 			name = Shows;
 			sourceTree = "<group>";
@@ -557,6 +567,7 @@
 				F7498A7B1E9BF8470067413E /* PlayModel.m in Sources */,
 				F7498A661E9BF00D0067413E /* HttpClient.m in Sources */,
 				F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */,
+				91B359431EC9D71B00F6D2C7 /* ShowScrollViewController.m in Sources */,
 				91A4F2141EAFFFFB0002A82B /* Session.m in Sources */,
 				91A4F20F1EAFF2F80002A82B /* Enums.m in Sources */,
 				91A4F2031EAFDF6E0002A82B /* ProfileViewController.m in Sources */,
@@ -569,6 +580,7 @@
 				916B04B71E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld in Sources */,
 				91A4F2061EAFE9BA0002A82B /* LoggedUser.m in Sources */,
 				913B0BF81E990A4C006B8546 /* ShowTableViewCell.m in Sources */,
+				91B359401EC9C89600F6D2C7 /* ShowParallaxHeaderController.m in Sources */,
 				916B04AB1E98E44200813628 /* main.m in Sources */,
 				F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */,
 				F7498A891E9C10350067413E /* LocationMapViewController.m in Sources */,

@@ -33,7 +33,7 @@
     
 }
 - (IBAction)closeButtonTapped:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:^{
+    [self dismissViewControllerAnimated:NO completion:^{
         if([self.delegate respondsToSelector:@selector(closeButtonTapped)]){
             [self.delegate closeButtonTapped];
         }
