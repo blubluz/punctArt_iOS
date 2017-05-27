@@ -17,6 +17,17 @@
     self.imagePath = [dictionary safeObjectForKey:@"image_paths"];
     self.category = [dictionary safeObjectForKey:@"category"];
     self.rating = [dictionary safeObjectForKey:@"rating"];
+    self.trailerLink = [dictionary safeObjectForKey:@"trailer_link"];
+    NSArray *commentsArray = [dictionary safeObjectForKey:@"comments"];
+    NSMutableArray *comments = [[NSMutableArray alloc] init];
+    for(NSDictionary *dict in commentsArray){
+        CommentModel *comment = [[CommentModel alloc] initWithDictionary:dict];
+        [comments addObject:comment];
+    }
+    if([dictionary safeObjectForKey:@"auth_user_favorite"]){
+        self.isFavorite = YES;
+    }
+    self.comments = [NSArray arrayWithArray:comments];
     return self;
 }
 @end

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ActorCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="131"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="131"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kn9-Yo-RGR">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="131"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jHR-Li-boB">
+                                <rect key="frame" x="15" y="10" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jHR-Li-boB" secondAttribute="height" id="Ey5-7y-iet"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nume actor lung" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="jx8-SQ-3md">
+                                <rect key="frame" x="2" y="88" width="96" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jx8-SQ-3md" firstAttribute="top" secondItem="jHR-Li-boB" secondAttribute="bottom" constant="8" id="98z-4d-rNe"/>
+                            <constraint firstItem="jx8-SQ-3md" firstAttribute="leading" secondItem="kn9-Yo-RGR" secondAttribute="leading" constant="2" id="9jg-lt-lwH"/>
+                            <constraint firstItem="jx8-SQ-3md" firstAttribute="centerX" secondItem="kn9-Yo-RGR" secondAttribute="centerX" id="QS3-tc-VuD"/>
+                            <constraint firstItem="jHR-Li-boB" firstAttribute="top" secondItem="kn9-Yo-RGR" secondAttribute="top" constant="10" id="dji-i5-tVr"/>
+                            <constraint firstAttribute="trailing" secondItem="jx8-SQ-3md" secondAttribute="trailing" constant="2" id="fwr-b4-79r"/>
+                            <constraint firstAttribute="trailing" secondItem="jHR-Li-boB" secondAttribute="trailing" constant="15" id="gyA-iq-hJI"/>
+                            <constraint firstAttribute="bottom" secondItem="jx8-SQ-3md" secondAttribute="bottom" constant="2" id="tgL-OT-8Gr"/>
+                            <constraint firstItem="jHR-Li-boB" firstAttribute="leading" secondItem="kn9-Yo-RGR" secondAttribute="leading" constant="15" id="yPK-4t-HyA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="kn9-Yo-RGR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9mR-Db-bcp"/>
+                <constraint firstAttribute="trailing" secondItem="kn9-Yo-RGR" secondAttribute="trailing" id="aHh-tE-p8w"/>
+                <constraint firstItem="kn9-Yo-RGR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cOM-yX-sOZ"/>
+                <constraint firstAttribute="bottom" secondItem="kn9-Yo-RGR" secondAttribute="bottom" id="mVl-FC-8Jg"/>
+            </constraints>
+            <size key="customSize" width="139" height="131"/>
+            <connections>
+                <outlet property="actorLabel" destination="jx8-SQ-3md" id="IAF-F1-qZb"/>
+                <outlet property="cellImage" destination="jHR-Li-boB" id="R14-Ge-Ltk"/>
+            </connections>
+            <point key="canvasLocation" x="85" y="91.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

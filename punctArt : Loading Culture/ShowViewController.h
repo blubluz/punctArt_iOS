@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MXParallaxHeader/MXParallaxHeader.h>
 #import <MXParallaxHeader/MXScrollViewController.h>
+#import "PlayRepresentationModel.h"
 @interface ShowViewController : MXScrollViewController
-
+@property(strong, nonatomic) PlayRepresentationModel *playRep;
 @end

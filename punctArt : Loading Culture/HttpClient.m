@@ -23,7 +23,12 @@
 
 static HttpClient *sharedClient = nil;
 
-+(id)sharedHTTPClient
+
+
+
+
+
++(instancetype)sharedHTTPClient
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -53,6 +58,9 @@ static HttpClient *sharedClient = nil;
     }];
     
     sharedClient.requestSerializer = [AFJSONRequestSerializer serializer];
+    
+    if([SessionManager getSession].token)
+    [sharedClient.requestSerializer setValue:[NSString stringWithFormat:@"%@ %@",@"Bearer",[SessionManager getSession].token] forHTTPHeaderField:@"Authorization"];
     
     return sharedClient;
 }

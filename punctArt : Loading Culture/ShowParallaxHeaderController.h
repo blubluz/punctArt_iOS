@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ShowParallaxHeaderController : UIViewController
-
+@property(strong, nonatomic) NSString *playImagePath;
 @end

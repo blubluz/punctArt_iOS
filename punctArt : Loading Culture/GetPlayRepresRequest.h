@@ -9,7 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "PlayRepresentationModel.h"
 @interface GetPlayRepresRequest : NSObject <RequestProtocol>
-@property(strong, nonatomic) NSString *orderType; //date/rating 
+@property(strong, nonatomic) NSString *orderType; //date/rating
+@property(strong, nonatomic) NSNumber *categoryId;
+@property(strong, nonatomic) NSNumber *theaterId;
+@property(strong, nonatomic) NSString *cityName;
+@property(strong, nonatomic) NSString *searchQuery;
+
 @end
 
 @interface GetPlayRepresResponse : BaseResponse

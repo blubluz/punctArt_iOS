@@ -17,7 +17,7 @@
     self.date = [dateFormatter dateFromString:dateString];
     self.theater = [[TheaterModel alloc] initWithDictionary:[dictionary safeObjectForKey:@"theater"]];
     self.play = [[PlayModel alloc] initWithDictionary:[dictionary safeObjectForKey:@"play"]];
-    self.actor = [NSArray arrayWithObjectClass:[ActorModel class] andSource:[dictionary safeObjectForKey:@"actors"]];
+    self.actors = [NSArray arrayWithObjectClass:[ActorModel class] andSource:[dictionary safeObjectForKey:@"actors"]];
     return self;
 }
 @end

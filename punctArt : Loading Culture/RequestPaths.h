@@ -11,4 +11,8 @@
 
 #define kGetPlayRepres @"playsRepresentations"
 #define kLogin @"auth/convert-token/"
+#define kCategories @"categories/"
+#define kPostComment @"comment/"
+#define kFavourite @"favorite/"
+#define kFavourites @"favorites/"
 #endif /* RequestPaths_h */

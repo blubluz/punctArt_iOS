@@ -15,6 +15,6 @@
 @property(strong, nonatomic) NSDate *date;
 @property(strong, nonatomic) TheaterModel *theater;
 @property(strong, nonatomic) PlayModel *play;
-@property(strong, nonatomic) NSArray<ActorModel *> *actor;
+@property(strong, nonatomic) NSArray<ActorModel *> *actors;
 -(id)initWithDictionary:(NSDictionary *)dictionary;
 @end

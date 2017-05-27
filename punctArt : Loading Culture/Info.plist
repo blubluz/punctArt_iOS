@@ -54,6 +54,10 @@
 	<string>1942319976001306</string>
 	<key>FacebookDisplayName</key>
 	<string>artLoadingCulture</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ProximaNova-Semibold.otf</string>
+	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fb</string>

@@ -48,6 +48,8 @@
         NSString *token = [dict safeObjectForKey:@"access_token"];
         Session *session = [[Session alloc] initWithToken:token];
         [SessionManager setSession:session];
+        LoggedUser *loggedUser = [[LoggedUser alloc] initWithDictionary:[dict safeObjectForKey:@"user"]];
+        [loggedUser saveUser];
     }
     return self;
 }

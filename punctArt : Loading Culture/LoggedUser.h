@@ -12,6 +12,8 @@
 
 
 @property(strong, nonatomic) NSString *photoUrl;
+@property(strong, nonatomic) NSString *userId;
+@property(strong, nonatomic) NSString *username;
 @property(strong, nonatomic) NSString *firstName;
 @property(strong, nonatomic) NSString *lastName;
 @property(strong, nonatomic) NSString *email;

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PlayRepresentationModel.h"
 @interface ShowScrollViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UICollectionView *actorsCollectionView;
+@property (strong, nonatomic) PlayRepresentationModel *playRep;
 @end

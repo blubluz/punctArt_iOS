@@ -12,6 +12,7 @@
 
 @interface ShowParallaxHeaderController () <MXParallaxHeaderDelegate>
 @property (weak, nonatomic) IBOutlet UIView *overlayView;
+@property (weak, nonatomic) IBOutlet UIImageView *playImage;
 
 @end
 
@@ -21,6 +22,7 @@
     [super viewDidLoad];
     self.parallaxHeader.delegate = self;
     self.overlayView.alpha = 0.17;
+    [self.playImage sd_setImageWithURL:[NSURL URLWithString:self.playImagePath]];
     // Do any additional setup after loading the view.
 }
 

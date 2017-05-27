@@ -7,13 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "CommentModel.h"
 @interface PlayModel : NSObject
 @property(strong, nonatomic) NSNumber *playId;
 @property(strong, nonatomic) NSString *playName;
 @property(strong, nonatomic) NSString *playDescription;
 @property(strong, nonatomic) NSString *imagePath;
 @property(strong, nonatomic) NSString *category;
+@property(strong, nonatomic) NSString *trailerLink;
 @property(strong, nonatomic) NSNumber *rating;
+@property(nonatomic) BOOL isFavorite;
+@property(strong, nonatomic) NSArray<CommentModel *> *comments;
 -(id)initWithDictionary:(NSDictionary *)dictionary;
 @end

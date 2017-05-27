@@ -47,6 +47,22 @@
 		91A5A5FF1E9D5A770012903F /* AWDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A5A5FE1E9D5A770012903F /* AWDirectionsViewController.m */; };
 		91B359401EC9C89600F6D2C7 /* ShowParallaxHeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3593F1EC9C89600F6D2C7 /* ShowParallaxHeaderController.m */; };
 		91B359431EC9D71B00F6D2C7 /* ShowScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B359421EC9D71B00F6D2C7 /* ShowScrollViewController.m */; };
+		F72C39481ED8984500628CE1 /* ActorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39461ED8984500628CE1 /* ActorCollectionViewCell.m */; };
+		F72C39491ED8984500628CE1 /* ActorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72C39471ED8984500628CE1 /* ActorCollectionViewCell.xib */; };
+		F72C394E1ED8A3A600628CE1 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C394D1ED8A3A600628CE1 /* ViewPagerController.m */; };
+		F72C39511ED8A40300628CE1 /* ShowsPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39501ED8A40300628CE1 /* ShowsPagerViewController.m */; };
+		F72C39541ED8A4AF00628CE1 /* GetCategoriesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39531ED8A4AF00628CE1 /* GetCategoriesRequest.m */; };
+		F72C39571ED8A50E00628CE1 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39561ED8A50E00628CE1 /* CategoryModel.m */; };
+		F72C395A1ED8AE4100628CE1 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F72C39581ED8AD7800628CE1 /* ProximaNova-Semibold.otf */; };
+		F72C39611ED8D26A00628CE1 /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39601ED8D26A00628CE1 /* CommentModel.m */; };
+		F72C39641ED8D53E00628CE1 /* PostCommentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39631ED8D53E00628CE1 /* PostCommentRequest.m */; };
+		F72C39671ED8D7EB00628CE1 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39661ED8D7EB00628CE1 /* CommentView.m */; };
+		F72C39691ED8D80800628CE1 /* CommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72C39681ED8D80800628CE1 /* CommentView.xib */; };
+		F72C396C1ED8F5D500628CE1 /* PostFavoriteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C396B1ED8F5D500628CE1 /* PostFavoriteRequest.m */; };
+		F72C396F1ED8FA0200628CE1 /* GetFavoritesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C396E1ED8FA0200628CE1 /* GetFavoritesRequest.m */; };
+		F72C39731ED90A3400628CE1 /* ActorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39721ED90A3400628CE1 /* ActorViewController.m */; };
+		F72C39761ED90A6A00628CE1 /* ActorParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39751ED90A6A00628CE1 /* ActorParallaxViewController.m */; };
+		F72C39791ED90A8200628CE1 /* ActorScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C39781ED90A8200628CE1 /* ActorScrollViewController.m */; };
 		F7498A661E9BF00D0067413E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A651E9BF00D0067413E /* HttpClient.m */; };
 		F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A6E1E9BF14F0067413E /* BaseResponse.m */; };
 		F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F7498A711E9BF1860067413E /* NSDictionary+Common.m */; };
@@ -131,6 +147,35 @@
 		91B359421EC9D71B00F6D2C7 /* ShowScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowScrollViewController.m; sourceTree = "<group>"; };
 		CEA9B0D823706C5348742B87 /* Pods_punctArt___Loading_Culture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_punctArt___Loading_Culture.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389D8C33C0011462321701E /* Pods-punctArt : Loading Culture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-punctArt : Loading Culture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-punctArt : Loading Culture/Pods-punctArt : Loading Culture.debug.xcconfig"; sourceTree = "<group>"; };
+		F72C39451ED8984500628CE1 /* ActorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorCollectionViewCell.h; sourceTree = "<group>"; };
+		F72C39461ED8984500628CE1 /* ActorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorCollectionViewCell.m; sourceTree = "<group>"; };
+		F72C39471ED8984500628CE1 /* ActorCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActorCollectionViewCell.xib; sourceTree = "<group>"; };
+		F72C394C1ED8A3A600628CE1 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		F72C394D1ED8A3A600628CE1 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
+		F72C394F1ED8A40300628CE1 /* ShowsPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsPagerViewController.h; sourceTree = "<group>"; };
+		F72C39501ED8A40300628CE1 /* ShowsPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsPagerViewController.m; sourceTree = "<group>"; };
+		F72C39521ED8A4AF00628CE1 /* GetCategoriesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCategoriesRequest.h; sourceTree = "<group>"; };
+		F72C39531ED8A4AF00628CE1 /* GetCategoriesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCategoriesRequest.m; sourceTree = "<group>"; };
+		F72C39551ED8A50E00628CE1 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		F72C39561ED8A50E00628CE1 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		F72C39581ED8AD7800628CE1 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		F72C395F1ED8D26A00628CE1 /* CommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentModel.h; sourceTree = "<group>"; };
+		F72C39601ED8D26A00628CE1 /* CommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
+		F72C39621ED8D53E00628CE1 /* PostCommentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCommentRequest.h; sourceTree = "<group>"; };
+		F72C39631ED8D53E00628CE1 /* PostCommentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCommentRequest.m; sourceTree = "<group>"; };
+		F72C39651ED8D7EB00628CE1 /* CommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		F72C39661ED8D7EB00628CE1 /* CommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		F72C39681ED8D80800628CE1 /* CommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentView.xib; sourceTree = "<group>"; };
+		F72C396A1ED8F5D500628CE1 /* PostFavoriteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostFavoriteRequest.h; sourceTree = "<group>"; };
+		F72C396B1ED8F5D500628CE1 /* PostFavoriteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostFavoriteRequest.m; sourceTree = "<group>"; };
+		F72C396D1ED8FA0200628CE1 /* GetFavoritesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFavoritesRequest.h; sourceTree = "<group>"; };
+		F72C396E1ED8FA0200628CE1 /* GetFavoritesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFavoritesRequest.m; sourceTree = "<group>"; };
+		F72C39711ED90A3400628CE1 /* ActorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorViewController.h; sourceTree = "<group>"; };
+		F72C39721ED90A3400628CE1 /* ActorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorViewController.m; sourceTree = "<group>"; };
+		F72C39741ED90A6A00628CE1 /* ActorParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorParallaxViewController.h; sourceTree = "<group>"; };
+		F72C39751ED90A6A00628CE1 /* ActorParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorParallaxViewController.m; sourceTree = "<group>"; };
+		F72C39771ED90A8200628CE1 /* ActorScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorScrollViewController.h; sourceTree = "<group>"; };
+		F72C39781ED90A8200628CE1 /* ActorScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorScrollViewController.m; sourceTree = "<group>"; };
 		F7498A641E9BF00D0067413E /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
 		F7498A651E9BF00D0067413E /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
 		F7498A671E9BF0280067413E /* PunctArtHeaders.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PunctArtHeaders.pch; sourceTree = "<group>"; };
@@ -212,6 +257,8 @@
 				91B3593F1EC9C89600F6D2C7 /* ShowParallaxHeaderController.m */,
 				91B359411EC9D71B00F6D2C7 /* ShowScrollViewController.h */,
 				91B359421EC9D71B00F6D2C7 /* ShowScrollViewController.m */,
+				F72C394F1ED8A40300628CE1 /* ShowsPagerViewController.h */,
+				F72C39501ED8A40300628CE1 /* ShowsPagerViewController.m */,
 			);
 			name = Shows;
 			sourceTree = "<group>";
@@ -232,6 +279,8 @@
 		913B0BEF1E98FEF7006B8546 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F72C39591ED8AD7A00628CE1 /* Font */,
+				F72C394B1ED8A39600628CE1 /* ICViewPager */,
 				91A4F2101EAFFFFB0002A82B /* Session.h */,
 				91A4F2111EAFFFFB0002A82B /* Session.m */,
 				91A4F2121EAFFFFB0002A82B /* SessionManager.h */,
@@ -259,14 +308,14 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		913B0BF41E990A36006B8546 /* Cells */ = {
+		913B0BF41E990A36006B8546 /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
 				913B0BF51E990A4C006B8546 /* ShowTableViewCell.h */,
 				913B0BF61E990A4C006B8546 /* ShowTableViewCell.m */,
 				913B0BF71E990A4C006B8546 /* ShowTableViewCell.xib */,
 			);
-			name = Cells;
+			name = TableCells;
 			sourceTree = "<group>";
 		};
 		916B049D1E98E43F00813628 = {
@@ -321,6 +370,7 @@
 				913B0BE41E98FCD0006B8546 /* Profile */,
 				913B0BE31E98FCCA006B8546 /* Shows */,
 				913B0BE21E98FCC1006B8546 /* TabBar */,
+				F72C39701ED90A0800628CE1 /* Actors */,
 				F7498A871E9C10350067413E /* LocationMapViewController.h */,
 				F7498A881E9C10350067413E /* LocationMapViewController.m */,
 			);
@@ -330,7 +380,11 @@
 		916B04C81E98E6F000813628 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				913B0BF41E990A36006B8546 /* Cells */,
+				F72C39441ED8981400628CE1 /* CollectionViewCells */,
+				913B0BF41E990A36006B8546 /* TableCells */,
+				F72C39651ED8D7EB00628CE1 /* CommentView.h */,
+				F72C39661ED8D7EB00628CE1 /* CommentView.m */,
+				F72C39681ED8D80800628CE1 /* CommentView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -348,6 +402,10 @@
 				F7498A7A1E9BF8470067413E /* PlayModel.m */,
 				F7498A7C1E9BF8FE0067413E /* ActorModel.h */,
 				F7498A7D1E9BF8FE0067413E /* ActorModel.m */,
+				F72C39551ED8A50E00628CE1 /* CategoryModel.h */,
+				F72C39561ED8A50E00628CE1 /* CategoryModel.m */,
+				F72C395F1ED8D26A00628CE1 /* CommentModel.h */,
+				F72C39601ED8D26A00628CE1 /* CommentModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -403,6 +461,46 @@
 			name = "Facebook SDK";
 			sourceTree = "<group>";
 		};
+		F72C39441ED8981400628CE1 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F72C39451ED8984500628CE1 /* ActorCollectionViewCell.h */,
+				F72C39461ED8984500628CE1 /* ActorCollectionViewCell.m */,
+				F72C39471ED8984500628CE1 /* ActorCollectionViewCell.xib */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		F72C394B1ED8A39600628CE1 /* ICViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				F72C394C1ED8A3A600628CE1 /* ViewPagerController.h */,
+				F72C394D1ED8A3A600628CE1 /* ViewPagerController.m */,
+			);
+			name = ICViewPager;
+			sourceTree = "<group>";
+		};
+		F72C39591ED8AD7A00628CE1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F72C39581ED8AD7800628CE1 /* ProximaNova-Semibold.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		F72C39701ED90A0800628CE1 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				F72C39711ED90A3400628CE1 /* ActorViewController.h */,
+				F72C39721ED90A3400628CE1 /* ActorViewController.m */,
+				F72C39741ED90A6A00628CE1 /* ActorParallaxViewController.h */,
+				F72C39751ED90A6A00628CE1 /* ActorParallaxViewController.m */,
+				F72C39771ED90A8200628CE1 /* ActorScrollViewController.h */,
+				F72C39781ED90A8200628CE1 /* ActorScrollViewController.m */,
+			);
+			name = Actors;
+			sourceTree = "<group>";
+		};
 		F7498A681E9BF0950067413E /* Requests */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +508,14 @@
 				F7498A841E9BFE580067413E /* GetPlayRepresRequest.m */,
 				91A4F20A1EAFF2730002A82B /* LoginRequest.h */,
 				91A4F20B1EAFF2730002A82B /* LoginRequest.m */,
+				F72C39521ED8A4AF00628CE1 /* GetCategoriesRequest.h */,
+				F72C39531ED8A4AF00628CE1 /* GetCategoriesRequest.m */,
+				F72C39621ED8D53E00628CE1 /* PostCommentRequest.h */,
+				F72C39631ED8D53E00628CE1 /* PostCommentRequest.m */,
+				F72C396A1ED8F5D500628CE1 /* PostFavoriteRequest.h */,
+				F72C396B1ED8F5D500628CE1 /* PostFavoriteRequest.m */,
+				F72C396D1ED8FA0200628CE1 /* GetFavoritesRequest.h */,
+				F72C396E1ED8FA0200628CE1 /* GetFavoritesRequest.m */,
 			);
 			name = Requests;
 			sourceTree = "<group>";
@@ -497,7 +603,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72C395A1ED8AE4100628CE1 /* ProximaNova-Semibold.otf in Resources */,
+				F72C39491ED8984500628CE1 /* ActorCollectionViewCell.xib in Resources */,
 				916B04BC1E98E44200813628 /* LaunchScreen.storyboard in Resources */,
+				F72C39691ED8D80800628CE1 /* CommentView.xib in Resources */,
 				916B04B91E98E44200813628 /* Assets.xcassets in Resources */,
 				913B0BF91E990A4C006B8546 /* ShowTableViewCell.xib in Resources */,
 				916B04B41E98E44200813628 /* Main.storyboard in Resources */,
@@ -566,28 +675,41 @@
 				F7498A781E9BF6C90067413E /* TheaterModel.m in Sources */,
 				F7498A7B1E9BF8470067413E /* PlayModel.m in Sources */,
 				F7498A661E9BF00D0067413E /* HttpClient.m in Sources */,
+				F72C39541ED8A4AF00628CE1 /* GetCategoriesRequest.m in Sources */,
 				F7498A851E9BFE580067413E /* GetPlayRepresRequest.m in Sources */,
 				91B359431EC9D71B00F6D2C7 /* ShowScrollViewController.m in Sources */,
 				91A4F2141EAFFFFB0002A82B /* Session.m in Sources */,
 				91A4F20F1EAFF2F80002A82B /* Enums.m in Sources */,
 				91A4F2031EAFDF6E0002A82B /* ProfileViewController.m in Sources */,
+				F72C39571ED8A50E00628CE1 /* CategoryModel.m in Sources */,
+				F72C39611ED8D26A00628CE1 /* CommentModel.m in Sources */,
+				F72C396C1ED8F5D500628CE1 /* PostFavoriteRequest.m in Sources */,
 				916B04C61E98E6E200813628 /* CustomTabBarViewController.m in Sources */,
+				F72C39671ED8D7EB00628CE1 /* CommentView.m in Sources */,
+				F72C39731ED90A3400628CE1 /* ActorViewController.m in Sources */,
 				F7498A821E9BFD330067413E /* NSArray+Common.m in Sources */,
+				F72C39641ED8D53E00628CE1 /* PostCommentRequest.m in Sources */,
 				91A5A5FF1E9D5A770012903F /* AWDirectionsViewController.m in Sources */,
 				91A4F2091EAFEB020002A82B /* AlertManager.m in Sources */,
+				F72C39761ED90A6A00628CE1 /* ActorParallaxViewController.m in Sources */,
 				91A4F1FF1EAFDDC00002A82B /* LoginViewController.m in Sources */,
+				F72C396F1ED8FA0200628CE1 /* GetFavoritesRequest.m in Sources */,
 				91A4F20C1EAFF2730002A82B /* LoginRequest.m in Sources */,
 				916B04B71E98E44200813628 /* punctArt___Loading_Culture.xcdatamodeld in Sources */,
+				F72C394E1ED8A3A600628CE1 /* ViewPagerController.m in Sources */,
 				91A4F2061EAFE9BA0002A82B /* LoggedUser.m in Sources */,
+				F72C39481ED8984500628CE1 /* ActorCollectionViewCell.m in Sources */,
 				913B0BF81E990A4C006B8546 /* ShowTableViewCell.m in Sources */,
 				91B359401EC9C89600F6D2C7 /* ShowParallaxHeaderController.m in Sources */,
 				916B04AB1E98E44200813628 /* main.m in Sources */,
+				F72C39511ED8A40300628CE1 /* ShowsPagerViewController.m in Sources */,
 				F7498A721E9BF1860067413E /* NSDictionary+Common.m in Sources */,
 				F7498A891E9C10350067413E /* LocationMapViewController.m in Sources */,
 				913B0BE81E98FCF5006B8546 /* ShowNavigationController.m in Sources */,
 				F7566F741EB0FB3A000083D0 /* ShowViewController.m in Sources */,
 				913B0BF31E98FF0D006B8546 /* UIViewController+ZooUrban.m in Sources */,
 				913B0BEB1E98FD08006B8546 /* ProfileNavigationController.m in Sources */,
+				F72C39791ED90A8200628CE1 /* ActorScrollViewController.m in Sources */,
 				91A4F2151EAFFFFB0002A82B /* SessionManager.m in Sources */,
 				F7498A6F1E9BF14F0067413E /* BaseResponse.m in Sources */,
 			);

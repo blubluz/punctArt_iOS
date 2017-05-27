@@ -15,7 +15,7 @@ typedef void (^RequestResponse)(BaseResponse *response, NSError* error);
 
 @interface HttpClient : AFHTTPSessionManager
 
-+(id)sharedHTTPClient;
++(instancetype)sharedHTTPClient;
 
 -(void)performRequest:(id<RequestProtocol>)request
          WithResponse:(RequestResponse)block;

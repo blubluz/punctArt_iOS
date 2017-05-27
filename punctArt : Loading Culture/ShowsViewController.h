@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CategoryModel.h"
 
 @interface ShowsViewController : UIViewController
-
+@property(strong, nonatomic) CategoryModel *category;
+@property(strong, nonatomic) NSString *queryString;
+@property(strong, nonatomic) NSString *orderType;
+-(void)loadData;
 @end

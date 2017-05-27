@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CommentView">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mrl-83-3c6">
+                    <rect key="frame" x="10" y="10" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="lX5-ds-KU7"/>
+                        <constraint firstAttribute="width" secondItem="Mrl-83-3c6" secondAttribute="height" id="t9I-RM-GQ8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nume" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="5XS-N4-Ohf">
+                    <rect key="frame" x="5.5" y="80" width="75" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Mge-Mk-Aq6"/>
+                        <constraint firstAttribute="width" constant="75" id="r2a-NH-hAa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3E8-Qe-8rL">
+                    <rect key="frame" x="83" y="20" width="276" height="47"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6U-rq-dak">
+                    <rect key="frame" x="50" y="72" width="308" height="46"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.50422731164383561" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3E8-Qe-8rL" secondAttribute="trailing" constant="15" id="0RX-ro-HGY"/>
+                <constraint firstItem="3E8-Qe-8rL" firstAttribute="leading" secondItem="Mrl-83-3c6" secondAttribute="trailing" constant="8" id="H4W-Fa-zOK"/>
+                <constraint firstItem="5XS-N4-Ohf" firstAttribute="centerX" secondItem="Mrl-83-3c6" secondAttribute="centerX" id="HeS-s7-ZBK"/>
+                <constraint firstItem="h6U-rq-dak" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="Mz3-sB-Qcm"/>
+                <constraint firstItem="h6U-rq-dak" firstAttribute="centerY" secondItem="5XS-N4-Ohf" secondAttribute="centerY" id="UU5-zr-Km0"/>
+                <constraint firstItem="5XS-N4-Ohf" firstAttribute="top" secondItem="Mrl-83-3c6" secondAttribute="bottom" constant="5" id="Xx3-9d-YEI"/>
+                <constraint firstItem="3E8-Qe-8rL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="aLU-mY-1wq"/>
+                <constraint firstAttribute="trailing" secondItem="h6U-rq-dak" secondAttribute="trailing" constant="16" id="d2c-yn-Dc8"/>
+                <constraint firstItem="Mrl-83-3c6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="gLb-Ki-2Nm"/>
+                <constraint firstItem="h6U-rq-dak" firstAttribute="top" secondItem="3E8-Qe-8rL" secondAttribute="bottom" constant="5" id="hXn-0S-CV9"/>
+                <constraint firstItem="Mrl-83-3c6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="xeb-jq-Cf9"/>
+                <constraint firstAttribute="bottom" secondItem="h6U-rq-dak" secondAttribute="bottom" constant="2" id="yhl-hs-XU2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="authorImage" destination="Mrl-83-3c6" id="8We-Kw-A7r"/>
+                <outlet property="authorLabel" destination="5XS-N4-Ohf" id="kcy-9n-fsH"/>
+                <outlet property="commentLabel" destination="3E8-Qe-8rL" id="c74-EU-qjd"/>
+                <outlet property="dateLabel" destination="h6U-rq-dak" id="h2d-I9-5NJ"/>
+            </connections>
+            <point key="canvasLocation" x="55" y="-179"/>
+        </view>
+    </objects>
+</document>

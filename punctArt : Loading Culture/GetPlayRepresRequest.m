@@ -21,9 +21,13 @@
 -(NSDictionary *)dictionaryForm{
     NSMutableDictionary *jsonDict = [[NSMutableDictionary alloc] init];
     if(self.orderType)
-        jsonDict[@"order"] = self.orderType;
+        jsonDict[@"ordering"] = self.orderType;
     else
-        jsonDict[@"order"] = @"date";
+        jsonDict[@"ordering"] = @"date";
+    if(self.categoryId)
+        jsonDict[@"play__category"] = self.categoryId.stringValue;
+    if(self.searchQuery)
+        jsonDict[@"search"] = self.searchQuery;
     return jsonDict;
 }
 -(Class)responseClass{

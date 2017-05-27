@@ -24,7 +24,14 @@
     self.playRep = playRep;
     [self.cellImageView sd_setImageWithURL:[NSURL URLWithString:playRep.play.imagePath]];
     self.playTitleLabel.text = playRep.play.playName;
-    self.theaterNameLabel.text = playRep.theater.name;
+    if(playRep.theater)
+        self.theaterNameLabel.text = playRep.theater.name;
+    else{
+        self.theaterNameLabel.hidden = YES;
+        self.theaterIcon.hidden = YES;
+        
+    }
+    if(self.playRep.date){
     NSDateFormatter *prettyDateFormatter = [[NSDateFormatter alloc] init];
     prettyDateFormatter.dateFormat = @"EEEE, MMM d";
     
@@ -46,17 +53,26 @@
             prettyDateFormatter.dateFormat = @"EEEE,d MMM, hh:mm";
             self.dateLabel.text = [NSString stringWithFormat:@"%@",[prettyDateFormatter stringFromDate:playRep.date]];
         }
+    }else{
+        self.dateLabel.hidden = YES;
+        self.dateIcon.hidden = YES;
+        
+    }
     
 }
 -(void)prepareForReuse{
     self.dateLabel.text = @"-";
+    self.cellImageView.image = nil;
+    self.theaterNameLabel.text = @"-";
 }
 - (IBAction)moreOptionsButtonTapped:(id)sender {
-    if([self.delegate respondsToSelector:@selector(moreOptionsTappedForPlayRep:)]){
-        [self.delegate moreOptionsTappedForPlayRep:self.playRep];
+    if([self.delegate respondsToSelector:@selector(moreOptionsTappedForPlayRep:atIndexPath:)]){
+        [self.delegate moreOptionsTappedForPlayRep:self.playRep atIndexPath:self.indexPath] ;
     }
 }
 - (IBAction)locationButtonTapped:(id)sender {
+    if(!self.playRep.theater)
+        return;
     if([self.delegate respondsToSelector:@selector(locationTappedForPlayRep:)]){
         [self.delegate locationTappedForPlayRep:self.playRep];
     }

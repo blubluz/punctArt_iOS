@@ -66,6 +66,7 @@
                 [SVProgressHUD dismiss];
                 if(!error){
                     if(!response.error){
+                        [self.delegate succesfulyLoggedIn];
                         
                         [self dismissViewControllerAnimated:YES completion:nil];
                     }
